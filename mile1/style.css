@@ -1,0 +1,116 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Soft light gray background */
+    margin: 0;
+    padding: 50px;
+}
+
+/* Resume Container Styling */
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #f0f4f8; /* Very light grayish blue */
+    color: #333333;
+    padding: 30px;
+    width: 40%; /* Smaller width for left section */
+}
+
+/* Right Section Styling */
+.right-section {
+    background-color: #ffffff; /* White background for right section */
+    color: #333333;
+    padding: 40px;
+    width: 60%; /* Larger width for right section */
+    text-align: center;
+}
+
+.profile-picture {
+    width: 180px; /* Medium size profile picture */
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #4CAF50; /* Green border */
+    margin-bottom: 20px;
+}
+
+/* Main Title (h1) */
+h1 {
+    font-size: 30px;
+    color: #0077b6; /* Soft blue color */
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+
+/* Section Headings (h3) */
+h3 {
+    font-size: 22px;
+    color: #4CAF50; /* Soft green color */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f4f8; /* Very light grayish blue background for contrast */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-transform: uppercase; /* Uppercase for a bolder look */
+}
+
+/* Paragraph and List Styling */
+p, ul {
+    color: #555555; /* Darker gray text */
+    line-height: 1.6;
+}
+
+/* List Styling */
+ul {
+    list-style: fill round;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Button Styling */
+button {
+    font-family: 'Arial', sans-serif;
+    background-color: #4CAF50; /* Green background */
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resume-container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .left-section,
+    .right-section {
+        width: 100%;
+    }
+}
